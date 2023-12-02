@@ -1,0 +1,54 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menuNavbar {
+    background: whitesmoke;
+    text-align: center;
+    margin-left: 20px; 
+    margin-right: 20px; 
+    margin-bottom: 20px;
+    margin-top: 4px; 
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.menucont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu {
+    width: 350px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    margin: 20px;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+}
+
+#menu h2 {
+    margin: 0;
+}
+
+#menu img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+#wan {
+    font-size: 20px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 220px;
+    height: 70px;
+}
